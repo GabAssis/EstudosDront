@@ -5,56 +5,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crunchyroll - Assista a animes populares e leia mangás online</title>
+    <link rel="stylesheet" href="assets/css/style.css">
     <style>
-        body {
-            background-image: url("assets/city.jpg");
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover;
-            backdrop-filter: blur(4px);
-        }
+
     </style>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul style="list-style-type:none;">
-                
-                <li style="display: inline-block;">
-                    <a href="anime.html">
-                        <button type="button" style="background-color: coral; border-radius: 0px; font-size: 24px; padding: 10px 20px; border: none;">Animes</button>
-                    </a>
+    <header class="barra-principal">
+        <div class="menu-options">
+            <a href="index.html"><img src="assets/imgs/Crunchyroll.png" alt="Logo do Crunchyroll"></a>
+            <div class="menu">
+                <a href="index.html">Home</a>
+                <a href="anime.html">Animes</a>
+                <a href="mangas.html">Mangas</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="pageanimes">
+
+        <section class="destaque">
+            <h2>Mangas em destaque</h2>
+            <ul class="lista-anime">
+                <li>
+                    <div class="animecards">
+                        <img src="assets/imgs/manga1.jpg" alt="onepiece">
+                        <a href="https://onepiece.fandom.com/wiki/One_Piece_Wiki"><button class="btn">Confira a wiki!</button></a>
+                    </div>
                 </li>
-                <li style="display: inline-block;">
-                    <a href="mangas.html">
-                    <button type="button" style="background-color: coral; border-radius: 0px; font-size: 24px; padding: 10px 20px; border: none;">Mangas</button>
-                    </a>
+                <li>
+                    <div class="animecards">
+                        <img src="assets/imgs/manga2.jpg" alt="onepunch">
+                        <a href="https://onepunchman.fandom.com/wiki/One-Punch_Man_Wiki"><button class="btn">Confira a wiki!</button></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="animecards">
+                        <img src="assets/imgs/manga3.jpg" alt="chainsaw">
+                        <a href="https://chainsaw-man.fandom.com/wiki/Chainsaw_Man_Wiki"><button class="btn">Confira a wiki!</button></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="animecards">
+                        <img src="assets/imgs/shunken.jpg" alt="shunken">
+                        <a href="https://sunkenrock.fandom.com/wiki/Ken_Kitano"><button class="btn">Confira a wiki!</button></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="animecards">
+                        <img src="assets/imgs/Berserk-Mangaschan.jpg" alt="Berserk">
+                        <a href="https://berserk.fandom.com/wiki/Berserk_Wiki"><button class="btn">Confira a wiki!</button></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="animecards">
+                        <img src="assets/imgs/solo-leveling-vol-2-comic.jpg" alt="sololeveling">
+                        <a href="https://solo-leveling.fandom.com/wiki/Solo_Leveling_Wiki"><button class="btn">Confira a wiki!</button></a>
+                    </div>
                 </li>
 
             </ul>
-
-        </nav>
-        <img src="assets/logo.png" alt="Logo do Crunchyroll" style="max-width: 6%;">
-    </header>
-    <main>
-        <section class="destaque">
-            <h2 style="font-family: Arial, sans-serif; text-transform: uppercase;">Mangas em destaque</h2>
-            <div class="lista-anime">
-                <img src="assets/manga1.jpg" alt="onepiece" style="max-width: 10%;">
-                <img src="assets/manga2.jpg" alt="onepunchman" style="max-width: 10%;">
-                <img src="assets/manga3.jpg" alt="chainsaw" style="max-width: 10%;">
-                <img src="assets/Berserk-Mangaschan.jpg" alt="berserk" style="max-width: 11%;">
-                
-            </div>
-        
+        </section>
     </main>
-    <footer>
-        
-        <div class="social-media">
-            <!-- Adicione os links das redes sociais aqui -->
-        </div>
-    </footer>
 </body>
 
 </html>
